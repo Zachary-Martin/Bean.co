@@ -1,0 +1,120 @@
+#lab {
+  float: right;
+  margin-left: 500px; /* Adjust this value as needed to add space between the image and the text */
+  width:600px;
+}
+#parallax {
+    /* The image used */
+    background-image: url("bean.co\ meeting.png");
+  
+    /* Set a specific height */
+    min-height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 10vh; /* Adjust height as needed */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+  }
+  #parallaxx {
+    /* The image used */
+    background-image: url("beanCan.png");
+  
+    /* Set a specific height */
+    min-height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 10vh; /* Adjust height as needed */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+  }
+
+  #tapestry{
+    /* The image used */
+    background-image: url("beanCan.png");
+  
+    /* Set a specific height */
+    min-height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 10vh; /* Adjust height as needed */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+  }
+
+  #chatgpt1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    background-color:darkcyan
+}
+
+
+
+
+
+  #banner{
+    /* The image used */
+    background-image: url("office.png");
+  
+    /* Set a specific height */
+    min-height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 10vh; /* Adjust height as needed */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+  }
+  #chatgpt {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    background-color:darkcyan
+}
+  .bio{
+    color: white;
+    
+  }
+
+  body{
+    height: 100vh;
+  
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+  }
+  .footer {
+    padding: 20px 0; /* Adjust padding as needed */
+    text-align: center;
+    background-color:#F5F5DC;
+    
+  }
